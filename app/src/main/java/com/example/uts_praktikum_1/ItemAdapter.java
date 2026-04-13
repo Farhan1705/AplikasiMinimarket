@@ -53,7 +53,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         holder.tvQuantity.setText(String.valueOf(quantities[position]));
 
         holder.btnPlus.setOnClickListener(v -> {
-            int pos = holder.getAdapterPosition();
+            int pos = holder.getBindingAdapterPosition();
             if (pos != RecyclerView.NO_POSITION) {
                 quantities[pos]++;
                 holder.tvQuantity.setText(String.valueOf(quantities[pos]));
@@ -64,7 +64,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         });
 
         holder.btnMinus.setOnClickListener(v -> {
-            int pos = holder.getAdapterPosition();
+            int pos = holder.getBindingAdapterPosition();
             if (pos != RecyclerView.NO_POSITION && quantities[pos] > 0) {
                 quantities[pos]--;
                 holder.tvQuantity.setText(String.valueOf(quantities[pos]));
@@ -75,7 +75,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         });
 
         holder.itemView.setOnClickListener(v -> {
-            int pos = holder.getAdapterPosition();
+            int pos = holder.getBindingAdapterPosition();
             if (pos != RecyclerView.NO_POSITION && onItemClickCallback != null) {
                 onItemClickCallback.onItemClicked(listItem.get(pos));
             }
