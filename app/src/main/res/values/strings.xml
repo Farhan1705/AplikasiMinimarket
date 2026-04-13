@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">AplikasiLoginModern</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="buat_akun_baru">Buat Akun Baru</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="recycleview">RecycleView</string>
+    <string name="nama_makanan">nama_makanan</string>
+
+    <!-- Makanan -->
+    <string-array name="nama_makanan">
+        <item>indomie goreng</item>
+        <item>silverqueen</item>
+        <item>chitato</item>
+        <item>gerry salut</item>
+        <item>whiskas</item>
+        <item>Doritos</item>
+    </string-array>
+    <string-array name="makanan_description">
+        <item>Indomie Goreng adalah mi instan kering populer.</item>
+        <item>SilverQueen adalah merek cokelat batangan.</item>
+        <item>Chitato adalah merek keripik kentang.</item>
+        <item>Gery Saluut Malkist adalah biskuit renyah.</item>
+        <item>Whiskas adalah makanan untuk dirli yang sangat bergizi.</item>
+        <item>Doritos adalah keripik ringan yang enak dimakan ketika nonton film</item>
+    </string-array>
+    <string-array name="harga_makanan">
+        <item>Rp. 3.500</item>
+        <item>Rp. 19.000</item>
+        <item>Rp. 9.000</item>
+        <item>Rp. 5.000</item>
+        <item>Rp. 27.000</item>
+        <item>Rp. 9.000</item>
+    </string-array>
+    <integer-array name="foto_makanan">
+        <item>@drawable/indomie</item>
+        <item>@drawable/silverqueen</item>
+        <item>@drawable/chitato</item>
+        <item>@drawable/gery</item>
+        <item>@drawable/whiskas</item>
+        <item>@drawable/doritos</item>
+    </integer-array>
+    <string-array name="nama_kebutuhan">
+        <item>tisu wajah</item>
+        <item>sabun</item>
+        <item>sampo</item>
+        <item>deodorant</item>
+        <item>pasta gigi</item>
+    </string-array>
+    <!-- Kebutuhan -->
+    <string-array name="kebutuhan_description">
+        <item>Tisu untuk ngelap muka.</item>
+        <item>Sabun mandi cair.</item>
+        <item>Sampo anti ketombe.</item>
+        <item>Deodorant wangi.</item>
+        <item>Pasta gigi pemutih.</item>
+    </string-array>
+    <string-array name="harga_kebutuhan">
+        <item>Rp. 15.000</item>
+        <item>Rp. 59.000</item>
+        <item>Rp. 90.000</item>
+        <item>Rp. 20.000</item>
+        <item>Rp. 23.000</item>
+    </string-array>
+
+    <integer-array name="foto_kebutuhan">
+        <item>@drawable/tisu</item>
+        <item>@drawable/sabun</item>
+        <item>@drawable/shampo</item>
+        <item>@drawable/deodorant</item>
+        <item>@drawable/odol</item>
+    </integer-array>
+
+    <!-- Permainan -->
+    <string-array name="nama_permainan">
+        <item>uno</item>
+        <item>kartu joker</item>
+        <item>tank</item>
+        <item>lego</item>
+        <item>pesawat</item>
+    </string-array>
+    <string-array name="permainan_description">
+        <item>Kartu permainan seru.</item>
+        <item>kartu  untuk bermain joker</item>
+        <item>tank baja asli .</item>
+        <item>Balok susun kreatif.</item>
+        <item>dijual karena pada saat terbang sering mati tiba-tiba.</item>
+    </string-array>
+    <integer-array name="foto_permainan">
+        <item>@drawable/uno</item>
+        <item>@drawable/kartujoker</item>
+        <item>@drawable/tank</item>
+        <item>@drawable/lego</item>
+        <item>@drawable/pecawat</item>
+    </integer-array>
+    <string-array name="harga_permainan">
+        <item>Rp. 21.000</item>
+        <item>Rp. 5.000</item>
+        <item>Rp. 27.000</item>
+        <item>Rp. 392.000</item>
+        <item>Rp. 999.000</item>
+    </string-array>
+
+</resources>
